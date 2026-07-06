@@ -3,6 +3,9 @@ name: Sync Leetcode History
 on:
   workflow_dispatch: # Allows you to run it manually with a single click
 
+permissions:
+  contents: write # Tells GitHub to allow this script to create your folders
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,4 +17,4 @@ jobs:
           github-token: ${{ github.token }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
-          destination-folder: 'leetcode-dsa' # Keeps it separate from NeetCode folders
+          destination-folder: 'LeetCode-DSA' # Keeps it separate from NeetCode folders
