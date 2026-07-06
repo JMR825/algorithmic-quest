@@ -1,20 +1,19 @@
 name: Sync Leetcode History
 
 on:
-  workflow_dispatch: # Allows you to run it manually with a single click
+  workflow_dispatch:
 
 permissions:
-  contents: write # Tells GitHub to allow this script to create your folders
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Cook Submissions
         uses: joshcai/leetcode-sync@v1.7
         with:
-          github-token: ${{ github.token }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
           leetcode-session: ${{ secrets.LEETCODE_SESSION }}
-          destination-folder: 'LeetCode-DSA' # Keeps it separate from NeetCode folders
+          destination-folder: 'LeetCode-DSA'
