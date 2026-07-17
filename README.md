@@ -55,9 +55,18 @@ _Maintained and structured natively via Git Automation Runbooks._
 ## Array
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/JMR825/algorithmic-quest/tree/master/0014-longest-common-prefix) |
 | [0238-product-of-array-except-self](https://github.com/JMR825/algorithmic-quest/tree/master/0238-product-of-array-except-self) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/JMR825/algorithmic-quest/tree/master/0238-product-of-array-except-self) |
+## String
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/JMR825/algorithmic-quest/tree/master/0014-longest-common-prefix) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/JMR825/algorithmic-quest/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
