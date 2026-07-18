@@ -44,6 +44,7 @@ _Maintained and structured natively via Git Automation Runbooks._
 |  |
 | ------- |
 | [0160-intersection-of-two-linked-lists](https://github.com/JMR825/algorithmic-quest/tree/master/0160-intersection-of-two-linked-lists) |
+| [0217-contains-duplicate](https://github.com/JMR825/algorithmic-quest/tree/master/0217-contains-duplicate) |
 ## Linked List
 |  |
 | ------- |
@@ -56,6 +57,7 @@ _Maintained and structured natively via Git Automation Runbooks._
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/JMR825/algorithmic-quest/tree/master/0014-longest-common-prefix) |
+| [0217-contains-duplicate](https://github.com/JMR825/algorithmic-quest/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/JMR825/algorithmic-quest/tree/master/0238-product-of-array-except-self) |
 ## Prefix Sum
 |  |
@@ -69,4 +71,8 @@ _Maintained and structured natively via Git Automation Runbooks._
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/JMR825/algorithmic-quest/tree/master/0014-longest-common-prefix) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/JMR825/algorithmic-quest/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
