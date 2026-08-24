@@ -1,15 +1,14 @@
 class Solution {
 public:
-    char findTheDifference(string s, string t)
-    {
-        //sort both the strings s & t
-        sort(s.begin(),s.end());
-        sort(t.begin(),t.end());
-        for(int i=0;i<t.size();i++)
-        {
-            if(s[i]!=t[i])
-            return t[i];
+    char findTheDifference(string s, string t) {
+        int sumS=0;
+        int sumT=0;
+        for(char c:s){
+            sumS+=c;
         }
-        return t[t.size()-1];
+        for(char c:t){
+            sumT+=c;
+        }
+        return char(sumT-sumS);        
     }
 };
